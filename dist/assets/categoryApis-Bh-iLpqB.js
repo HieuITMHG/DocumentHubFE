@@ -1,0 +1,1 @@
+import{p as t}from"./publicApi-BHdfStV1.js";import{c as e}from"./normalize-BiU1seQu.js";const s=async()=>{try{const r=await t.get("/api/documents/categories");return e(r.data)}catch(r){return console.error(r),[]}};export{s as g};
